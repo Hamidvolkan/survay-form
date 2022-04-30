@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>survay form</title>
+</head>
+<body>
+    <div class="image" id="image"></div>
+    <div id="container">
+
+    <h1 id="title">Lorem, ipsum.</h1>
+    <p id="description">Lorem ipsum dolor sit amet.</p>
+    <form id="survey-form">
+        <div id="inputs">
+        <label id="name-label" for="name">Name</label>
+        <input id="name" name="name" type="name" placeholder="Name" required>
+
+        <label id="email-label" for="email">Email</label>
+        <input  id="email" type="email" type="email" placeholder="email" required>
+      
+        <label id="number-label" for="number">Number</label>
+        <input  id="number" type="number" placeholder="Number" min="9" max="9" required>
+
+    </div>
+
+        <label for="dropdown">select one number</label>
+        <select name="select" id="dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+<br>
+        <div id="radio-btn-section">
+        <label  for="radio-btn">select a car !!!!</label>
+        <br>
+        <div>
+            <input name="radio-btn" value="attribute" type="radio">
+            <label  for="radio-btn">audi</label>
+        </div>
+        <div>
+            <input name="radio-btn" value="attribute" type="radio">
+            <label  for="radio-btn">bmw</label>
+        </div>
+        <div>
+            <input name="radio-btn" value="attribute" type="radio">
+            <label  for="radio-btn">benz</label>
+        </div>
+        <div>
+            <input name="radio-btn" value="attribute" type="radio">
+            <label  for="radio-btn">peykan</label>
+        </div>
+    </div>
+<br>
+        <h2>chose the ones youre agree</h2>
+        <input type="checkbox" name="" value="attribute"><label for="">temsah khare</label>
+        <br>
+        <input type="checkbox" name="" value="attribute"><label for="">gav khare</label>
+        <br>
+        <input type="checkbox" name="" value="attribute"><label for="">khar khare</label>
+        <br>
+        <input type="checkbox" name="" value="attribute"><label for=""> khare gave</label>
+        <br>
+        <input type="checkbox" name="" value="attribute"><label for="">mar khare</label>
+        <br>
+        <input type="checkbox" name="" value="attribute"><label for=""> khare mare</label>
+<br>
+       <div id="text-area"> 
+        <textarea name="" id="textarea" placeholder="Text" cols="30" rows="10"></textarea>
+        <hr>
+        <button id="submit">submit</button>
+        </div>
+    </form>
+</div>
+    
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+
+"></script>
+</html>
